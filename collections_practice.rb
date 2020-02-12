@@ -27,14 +27,14 @@ end
 
 def kesha_maker(array)
   newarray = []
-  newarray.push(array.each do {|string| string[2] = "$"})
-end
+  newarray.push(array.each {|string| string[2] = "$"})
+
   newarray
 end
  
 def find_a(array)
   newarray = []
-  newarray.push(array.each do {|i| i.first == "a"} end
+  newarray.push(array.each {|i| i.first == "a"})
   newarray
 end
 
