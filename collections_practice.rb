@@ -38,5 +38,6 @@ def find_a(array)
   newarray
 end
 
-
+def sum_array(array)
+  array.sum
   
