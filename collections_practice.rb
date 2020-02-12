@@ -30,9 +30,17 @@ def kesha_maker(array)
 end
  
 def find_a(array)
-  array1 = []
-  array1.push(array.each {|i| i[0] == "a"})
-  array1
+  i = 0
+  a = []
+  while i < array.length
+    if array[i][0] == "a"
+      a.push(array[i])
+      i += 1
+    else
+      i += 1
+    end
+  end
+  a
 end
 
 def sum_array(array)
