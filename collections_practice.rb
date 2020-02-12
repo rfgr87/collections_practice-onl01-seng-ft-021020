@@ -45,8 +45,9 @@ def add_s(array)
     if array[i] != "feet"
       array[i] << "s"
       i += 1
-    end
+    else
       i += 1
+    end
   end
   array
 end
