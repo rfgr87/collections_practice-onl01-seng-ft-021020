@@ -31,7 +31,7 @@ end
  
 def find_a(array)
   newarray = []
-  newarray.push(array.each {|i| i.first == "a"})
+  newarray.push(array.each {|i| i[0] == "a"})
   newarray
 end
 
@@ -43,9 +43,10 @@ def add_s(array)
   i = 0
   while i < array.length
     if array[i] != "feet"
-      array[i].push("s")
+      array[i] << "s"
       i += 1
     end
       i += 1
   end
+  array
 end
