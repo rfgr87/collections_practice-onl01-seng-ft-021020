@@ -40,4 +40,15 @@ end
 
 def sum_array(array)
   array.sum
-  
+end
+
+def add_s(array)
+  i = 0
+  while i < array.length
+    if array[i] != "feet"
+      array[i].push("s")
+      i += 1
+    end
+      i += 1
+  end
+end
